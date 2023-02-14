@@ -1,0 +1,18 @@
+header {
+    background-color: rgba(0,0,0, .8);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
