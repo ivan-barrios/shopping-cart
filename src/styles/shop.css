@@ -1,0 +1,14 @@
+.shop {
+    color: white;
+    margin: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 3rem;
+}

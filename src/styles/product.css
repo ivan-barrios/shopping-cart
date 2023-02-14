@@ -1,0 +1,27 @@
+.product {
+    background-color: white;
+    color: black;
+    display: flex;
+    width: 25rem;
+    gap: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+.images {
+    width: 10rem;
+    height: auto;
+    border-radius: 20px;
+}
+
+.quantity-manager {
+    display: flex;
+}
+.quantity-manager > input {
+    width: 5rem;
+}
+.quantity-manager > button {
+    width: 2rem;
+}

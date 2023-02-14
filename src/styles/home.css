@@ -1,12 +1,6 @@
 .home {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
+    margin-top: 5rem;
     color: white;
-    background: url('/src/images/woodFloor.jpg') no-repeat center center;
     display: grid;
     grid-template-columns: repeat(auto-fit, 50%);
     align-items:center;
