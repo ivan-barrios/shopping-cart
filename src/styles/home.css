@@ -1,0 +1,50 @@
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background: url('/src/images/woodFloor.jpg') no-repeat center center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    align-items:center;
+}
+
+.company-details {
+    justify-self: center;
+    margin-left: 2rem;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2rem;
+}
+.company-details > h1 {
+    font-size: clamp(5rem, 7vw, 20rem);
+}
+.company-details > h2 {
+    font-size: clamp(2rem, 3vw, 10rem);
+    line-height: clamp(3rem, 4vw, 5rem);
+}
+
+.shop-btn {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 30%;
+    width: min(50vw, 10rem);
+    height: min(40vh, 4rem);
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-weight: bold;
+    border: 7px solid white;
+    transition: font-size .5s, width .5s, height .5s;
+}
+.shop-btn:hover {
+    font-size: 2rem;
+    width: min(50vw, 14rem);
+    height: min(40vh, 6rem);
+}
