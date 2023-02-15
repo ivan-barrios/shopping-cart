@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.e26bcd4e.css",
-    "main.js": "/my-app/static/js/main.b2df4352.js",
-    "static/media/woodFloor.jpg": "/my-app/static/media/woodFloor.e5528979292e63dbcabd.jpg",
-    "static/media/woodProduct.jpg": "/my-app/static/media/woodProduct.01a5e17715f7bb0b2c07.jpg",
-    "index.html": "/my-app/index.html",
-    "main.e26bcd4e.css.map": "/my-app/static/css/main.e26bcd4e.css.map",
-    "main.b2df4352.js.map": "/my-app/static/js/main.b2df4352.js.map"
+    "main.css": "/shopping-cart/static/css/main.c14b7420.css",
+    "main.js": "/shopping-cart/static/js/main.e65c7273.js",
+    "static/media/woodFloor.jpg": "/shopping-cart/static/media/woodFloor.e5528979292e63dbcabd.jpg",
+    "static/media/woodProduct.jpg": "/shopping-cart/static/media/woodProduct.01a5e17715f7bb0b2c07.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.c14b7420.css.map": "/shopping-cart/static/css/main.c14b7420.css.map",
+    "main.e65c7273.js.map": "/shopping-cart/static/js/main.e65c7273.js.map"
   },
   "entrypoints": [
-    "static/css/main.e26bcd4e.css",
-    "static/js/main.b2df4352.js"
+    "static/css/main.c14b7420.css",
+    "static/js/main.e65c7273.js"
   ]
 }
