@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Shop from "./components/Shop";
 import Cart from "./components/Cart";
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -24,7 +24,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -39,7 +39,7 @@ const App = () => {
           element={<Cart cart={cart} deleteFromCart={deleteFromCart} />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
