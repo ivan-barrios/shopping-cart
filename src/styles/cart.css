@@ -1,0 +1,35 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cart > h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.cart > button {
+    font-size: 2rem;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: font-size .5s;
+}
+.cart > button:hover {
+    font-size: 2.5rem;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}

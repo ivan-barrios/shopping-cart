@@ -15,6 +15,14 @@ const App = () => {
     }
   };
 
+  const deleteFromCart = (product) => {
+    setCart(
+      cart.filter((cartProd) => {
+        return cartProd !== product;
+      })
+    );
+  };
+
   return (
     <BrowserRouter>
       <Header />
@@ -25,7 +33,11 @@ const App = () => {
           path="/shop"
           element={<Shop handleClick={handleClick} />}
         />
-        <Route exact path="/cart" element={<Cart cart={cart} />} />
+        <Route
+          exact
+          path="/cart"
+          element={<Cart cart={cart} deleteFromCart={deleteFromCart} />}
+        />
       </Routes>
     </BrowserRouter>
   );

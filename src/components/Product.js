@@ -9,9 +9,11 @@ const Product = (props) => {
       <img src={images} alt={product.name} className="images" />
       <div className="product-info">
         <h1>{product.name}</h1>
-        <p>Description, description Description, description</p>
+        <p>Description, description </p>
         <h2>${product.price * product.quantity}</h2>
-        <button onClick={() => handleClick(product)}>Add to Cart</button>
+        <button onClick={() => handleClick(product)} className="addBtn">
+          Add to Cart
+        </button>
       </div>
     </div>
   );

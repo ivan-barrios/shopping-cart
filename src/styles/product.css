@@ -3,15 +3,29 @@
     color: black;
     display: flex;
     width: 25rem;
+    height: 15rem;
     gap: 2rem;
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
     margin: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .images {
     width: 10rem;
-    height: auto;
+    height:fit-content;
     border-radius: 20px;
+}
+
+.addBtn {
+    font-size: 1.5rem;
+    padding: .5rem;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: font-size .5s;
+    cursor: pointer;
+}
+.addBtn:hover {
+    font-size: 2rem;
 }
